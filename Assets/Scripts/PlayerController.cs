@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+// using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour
         countText.text = "Count: " + count.ToString();
 
  // Check if the count has reached or exceeded the win condition.
- if (count >= 12)
+ if (count >= 13)
         {
  // Display the win text.
             winTextObject.SetActive(true);
